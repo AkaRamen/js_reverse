@@ -34,7 +34,7 @@ response = requests.post('https://vipapi.qimingpian.cn/DataList/productListVip',
 
 encrypt_data = response.json()['encrypt_data']
 
-ctx = execjs.compile(open('JS_reverse/11-3-qimingpian-部分抠/qimingpian.js', 'r', encoding='utf-8').read())
+ctx = execjs.compile(open('qimingpian.js', 'r', encoding='utf-8').read())
 
 # print(response.json())
 
