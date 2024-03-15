@@ -1,3 +1,6 @@
+# 定位接口为返回数据加密，搜索关键字 encrypt_data, 找到加密接口，扣方法即可。
+# 最近这个网址已经被废弃。
+
 import requests
 import execjs
 import json
